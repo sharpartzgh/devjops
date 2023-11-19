@@ -1,38 +1,147 @@
-.App {
-  text-align: center;
-}
+/* Header styling */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  margin: 0 auto;
+  width: 89%;
+  height: 100vh;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+.container{
+ margin: 0 auto;
+}
+.container .header-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1.4rem 8rem 4rem;
+height: 100px;
+background: #333a8d;
+color: #ffffff;
+position: relative;
+}
+h1{
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 25px;
+}
+.menuicon{
+  fill: white;
+}
+.empty1{
+width: 120px;
+height: 240px;
+transform: rotate(12.662deg);
+flex-shrink: 0;
+background-color: #ffffff;
+opacity: 0.0814;
+position: absolute;
+left: 180px;
+bottom: 40px;
+}
+/* empty divs for the shapes  in the header background */
+.empty2{
+  width: 120px;
+  height: 240px;
+  transform: rotate(-12.662deg);
+  flex-shrink: 0;
+  background-color: #ffffff;
+  opacity: 0.0814;
+  position: absolute;
+  right: 90px;
+  bottom: 0;
   }
-}
+.empty3{
+  width: 150px;
+  height: 240px;
+  transform: rotate(12.662deg);
+  flex-shrink: 0;
+  background-color: #ffffff;
+  opacity: 0.0814;
+  position: absolute;
+  left: 0;
+  top: 50px;
+    }
+/*Card Styling */ 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-card-container{
+  padding: 30px;
+  width: 320px;
+  height: 228px;
+  border-radius: 6px;
+  background-color: #ffffff; 
+  margin-top: 40px;
+  transition: all 300ms ease;
+}
+.card-container{
+  background-color: #F4F6F8;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 40px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  position: relative;
+}
+.full-time{
+  margin-top: 10px;
+  display: flex;
+  gap: 0.55rem;
+  color: #6E8098;
+}
+.styleMe{
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 16px;
+  margin: 10px 0 10px;
+  color: #19202D;
+}
+ .company{
+  color: #6E8098;
+
+}
+.location{
+  color: #5964E0;
+  margin-top: 35px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-container{
+margin: 0 auto;
+background-color: #F4F6F8;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn{
+  font-family: 'Kumbh Sans', sans-serif;
+  padding: 0.40rem;
+  width: 15%;
+  font-size: 18px;
+  justify-content: center;
+  background-color: #5964E0;
+  border-radius: 5px;
+  border-style: none;
+  color: #ffffff;
 }
+.App button{
+  margin: 40px;
+}
+.main-card-container:nth-child(1){
+  margin-top: 60px;
+}
+.main-card-container:nth-child(2){
+  margin-top: 60px;
+}
+.main-card-container:nth-child(3){
+  margin-top: 60px;
+}
+/* .main-card-container:hover{
+  margin-left: 10px;
+  transition: all 300ms ease;
+ background-color:aqua;
+} */
+/* lemme end here and continue later */
