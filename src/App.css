@@ -33,39 +33,35 @@ h1{
 .menuicon{
   fill: white;
 }
-.empty1{
-width: 120px;
-height: 240px;
-transform: rotate(12.662deg);
-flex-shrink: 0;
-background-color: #ffffff;
-opacity: 0.0814;
-position: absolute;
-left: 180px;
-bottom: 40px;
-}
+
 /* empty divs for the shapes  in the header background */
+.empty1{
+position: absolute;
+width: 536.811px;
+height: 466.59px;
+transform: rotate(-35.100deg);
+flex-shrink: 0;
+top: -180%;
+left: 18%;
+
+}
 .empty2{
-  width: 120px;
-  height: 240px;
-  transform: rotate(-12.662deg);
-  flex-shrink: 0;
-  background-color: #ffffff;
-  opacity: 0.0814;
-  position: absolute;
-  right: 90px;
-  bottom: 0;
-  }
+position: absolute;
+width: 8.00px;
+height: 2px;
+transform: rotate(20.662deg);
+flex-shrink: 0;
+top: -60%;
+left: 70%;
+}
 .empty3{
-  width: 150px;
-  height: 240px;
-  transform: rotate(12.662deg);
-  flex-shrink: 0;
-  background-color: #ffffff;
-  opacity: 0.0814;
-  position: absolute;
-  left: 0;
-  top: 50px;
+position: absolute;
+/* width: 545.835px;
+height: 458.271px;
+transform: rotate(12.662deg);
+flex-shrink: 0; */
+left: 0;
+top: -15%;
     }
 /*Card Styling */ 
 
